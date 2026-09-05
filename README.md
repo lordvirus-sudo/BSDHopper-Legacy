@@ -47,10 +47,3 @@ to older Android versions with a clean **BSD / Cinnamon-inspired** look.
 5. Насолоджуйтесь BSD-атмосферою ☕
 
 ---
-
-## 🛠️ Building from source
-
-```bash
-git clone https://github.com/YOUR_USERNAME/BSDHopper-Legacy.git
-cd BSDHopper-Legacy
-# відкрийте проєкт у Android Studio або зберіть через Gradle
