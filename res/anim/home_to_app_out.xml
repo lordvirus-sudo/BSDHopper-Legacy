@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="@android:integer/config_shortAnimTime"
+        android:fromXDelta="0.0%"
+        android:toXDelta="-20.000004%"
+        android:fromYDelta="0.0%"
+        android:toYDelta="-20.000004%"
+        android:detachWallpaper="true" />
+    <scale
+        android:duration="@android:integer/config_shortAnimTime"
+        android:fromXScale="1.0"
+        android:toXScale="1.4"
+        android:fromYScale="1.0"
+        android:toYScale="1.4"
+        android:detachWallpaper="true" />
+    <alpha
+        android:duration="@android:integer/config_shortAnimTime"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.6"
+        android:detachWallpaper="true" />
+</set>
