@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<be.robinj.distrohopper.widgets.WidgetsContainer
+    android:orientation="vertical"
+    android:id="@id/vgWidgets"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/llPanel"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:rowCount="8"
+    android:columnCount="8"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

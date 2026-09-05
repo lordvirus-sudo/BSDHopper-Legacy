@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="96.0dip"
+    android:layout_height="96.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/imgIcon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+    <TextView
+        android:textSize="16.0dip"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@id/tvLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="[Label]"
+        android:maxLines="@integer/dash_applauncher_label_maxlines"
+        android:layout_weight="0.0" />
+</LinearLayout>

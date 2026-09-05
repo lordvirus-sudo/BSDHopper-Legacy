@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/llBackground"
+        android:background="@drawable/widget_launcher_applauncher_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="6.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="6.0dip"
+        android:layout_marginBottom="3.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/llGradient"
+            android:background="@drawable/launcher_icon_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <be.robinj.distrohopper.thirdparty.ProgressWheel
+                android:id="@id/progressWheel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                ProgressWheel:barColor="@color/transparent40"
+                ProgressWheel:barLength="40.0dip"
+                ProgressWheel:barWidth="5.0dip"
+                ProgressWheel:circleColor="@color/transparent"
+                ProgressWheel:contourColor="@color/transparent"
+                ProgressWheel:rimColor="@color/transparent"
+                ProgressWheel:rimWidth="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

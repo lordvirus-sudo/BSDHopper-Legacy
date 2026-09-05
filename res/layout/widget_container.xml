@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:background="@android:color/holo_red_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/widgetWrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/frameLayout2"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <FrameLayout
+            android:id="@id/frameLayout"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="false" />
+        <FrameLayout
+            android:id="@id/frameLayout3"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="false" />
+        <FrameLayout
+            android:id="@id/frameLayout4"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/llEdgeTop"
+            android:focusableInTouchMode="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/frameLayout"
+            android:layout_toRightOf="@id/frameLayout2"
+            android:layout_above="@id/llEdgeLeft"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/frameLayout">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/widget_resize_handle" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/llEdgeBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/frameLayout4"
+            android:layout_below="@id/llEdgeLeft"
+            android:layout_alignRight="@id/llEdgeTop"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/frameLayout4"
+            android:layout_alignEnd="@id/llEdgeTop">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/widget_resize_handle" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/llEdgeLeft"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/llEdgeTop"
+            android:layout_above="@id/frameLayout4"
+            android:layout_below="@id/frameLayout2"
+            android:layout_toStartOf="@id/llEdgeTop">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/widget_resize_handle" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/llEdgeRight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/llEdgeTop"
+            android:layout_below="@id/frameLayout"
+            android:layout_alignBottom="@id/llEdgeLeft"
+            android:layout_toEndOf="@id/llEdgeTop">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/widget_resize_handle" />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_gravity="center"
+                android:id="@id/widgetContainer"
+                android:padding="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <RelativeLayout
+                android:id="@id/widgetOverlayCenter"
+                android:background="@color/transparentblack80"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageButton
+                    android:id="@id/ibRemove"
+                    android:background="@color/transparent"
+                    android:layout_width="64.0dip"
+                    android:layout_height="64.0dip"
+                    android:src="@drawable/launcher_trash"
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/llDashLensSearchResult"
+    android:padding="8.0dip"
+    android:layout_width="@dimen/dash_lenssearchresult_width"
+    android:layout_height="@dimen/dash_lenssearchresult_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/imgIcon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+    <TextView
+        android:textAppearance="@style/textshadow_2px_black"
+        android:textSize="@dimen/dash_applauncher_textsize"
+        android:textColor="@android:color/white"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:id="@id/tvLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="[Label]"
+        android:maxLines="@integer/dash_lenssearchresult_label_maxlines"
+        android:layout_weight="0.0" />
+</LinearLayout>

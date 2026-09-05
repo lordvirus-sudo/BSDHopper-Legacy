@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/llDashCustomise"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_launchericon_size"
+            style="@style/TextAppearance.AppCompat.Title" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_launchericon_size" />
+        <SeekBar
+            android:id="@id/sbCustomiseLauncherIconSize"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="72"
+            android:progress="36" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_launcher_edge"
+            style="@style/TextAppearance.AppCompat.Title" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_launcher_edge" />
+        <Spinner
+            android:id="@id/spiCustomiseLauncherEdge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_dashicon_size"
+            style="@style/TextAppearance.AppCompat.Title" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_dashicon_size" />
+        <SeekBar
+            android:id="@id/sbCustomiseDashIconSize"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="48"
+            android:progress="24" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/llCustomisePanelEdge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_panel_edge"
+            style="@style/TextAppearance.AppCompat.Title" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_panel_edge" />
+        <Spinner
+            android:id="@id/spiCustomisePanelEdge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
