@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/option_dev_logs"
+        android:dependency="dev">
+        <intent
+            android:targetPackage="be.robinj.distrohopper"
+            android:targetClass="be.robinj.distrohopper.dev.DevLogsActivity" />
+    </Preference>
+    <CheckBoxPreference
+        android:title="@string/option_dev_log_toaster"
+        android:key="dev_log_toaster"
+        android:summary="@string/hint_dev_log_toaster"
+        android:dependency="dev"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="@string/option_widgets_enabled"
+        android:key="widgets_enabled"
+        android:summary="@string/hint_widgets_enabled"
+        android:dependency="dev"
+        android:defaultValue="false" />
+</PreferenceScreen>

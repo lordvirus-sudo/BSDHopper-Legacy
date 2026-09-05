@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:title="@string/pref_header_appearance"
+        android:fragment="be.robinj.distrohopper.preferences.PreferencesActivity$AppearancePreferenceFragment" />
+    <header
+        android:title="@string/pref_header_functionality"
+        android:fragment="be.robinj.distrohopper.preferences.PreferencesActivity$FunctionalityPreferenceFragment" />
+</preference-headers>

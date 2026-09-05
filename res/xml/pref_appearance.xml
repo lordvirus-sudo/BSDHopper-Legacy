@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/option_theme"
+        android:summary="@string/hint_theme">
+        <intent
+            android:targetPackage="be.robinj.distrohopper"
+            android:targetClass="be.robinj.distrohopper.preferences.ThemePreferencesActivity" />
+    </Preference>
+    <Preference
+        android:title="@string/option_wallpaper"
+        android:summary="@string/hint_wallpaper">
+        <intent
+            android:action="android.intent.action.SET_WALLPAPER" />
+    </Preference>
+    <ListPreference
+        android:title="@string/option_icon_pack"
+        android:key="icon_pack"
+        android:summary="@string/hint_icon_pack"
+        android:defaultValue="" />
+    <Preference
+        android:title="@string/option_customise"
+        android:key="dummy_customise"
+        android:summary="@string/hint_customise" />
+</PreferenceScreen>

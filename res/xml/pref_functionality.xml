@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/option_lenses"
+        android:summary="@string/hint_lenses">
+        <intent
+            android:targetPackage="be.robinj.distrohopper"
+            android:targetClass="be.robinj.distrohopper.preferences.LensPreferencesActivity" />
+    </Preference>
+    <CheckBoxPreference
+        android:title="@string/option_dash_ready_show"
+        android:key="dash_ready_show"
+        android:summary="@string/hint_dash_ready_show"
+        android:defaultValue="false" />
+</PreferenceScreen>
