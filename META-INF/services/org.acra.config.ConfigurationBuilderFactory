@@ -1,0 +1,2 @@
+org.acra.config.HttpSenderConfigurationBuilderFactory
+org.acra.config.ToastConfigurationBuilderFactory
