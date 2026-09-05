@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edges">
+        <item>Ocultar</item>
+        <item>Arriba</item>
+        <item>Derecha</item>
+        <item>Abajo</item>
+        <item>Izquierda</item>
+    </string-array>
+</resources>

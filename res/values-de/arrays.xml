@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edges">
+        <item>Verstecken</item>
+        <item>Oben</item>
+        <item>Rechts</item>
+        <item>Unten</item>
+        <item>Links</item>
+    </string-array>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edges">
+        <item>Hide</item>
+        <item>Top</item>
+        <item>Right</item>
+        <item>Bottom</item>
+        <item>Left</item>
+    </string-array>
+    <array name="theme_cinnamon_launcher_background">
+        <item>@android:color/transparent</item>
+        <item>@drawable/theme_cinnamon_res_launcher_background_top</item>
+        <item>@drawable/theme_cinnamon_res_launcher_background_right</item>
+        <item>@drawable/theme_cinnamon_res_launcher_background_bottom</item>
+        <item>@drawable/theme_cinnamon_res_launcher_background_left</item>
+    </array>
+    <integer-array name="theme_cinnamon_launcher_location_supported">
+        <item>@integer/position_bottom</item>
+        <item>@integer/position_top</item>
+        <item>@integer/position_left</item>
+        <item>@integer/position_right</item>
+    </integer-array>
+    <array name="theme_cinnamon_launcher_margin">
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+    </array>
+    <integer-array name="theme_cinnamon_panel_location_supported">
+        <item>@integer/position_none</item>
+    </integer-array>
+    <array name="theme_cinnamon_panel_swap_close_preferences_when_launcher_location" />
+    <array name="theme_default_launcher_background">
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+    </array>
+    <integer-array name="theme_default_launcher_location_supported">
+        <item>@integer/position_left</item>
+        <item>@integer/position_right</item>
+        <item>@integer/position_bottom</item>
+    </integer-array>
+    <array name="theme_default_launcher_margin">
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+    </array>
+    <integer-array name="theme_default_panel_location_supported">
+        <item>@integer/position_top</item>
+        <item>@integer/position_none</item>
+    </integer-array>
+    <integer-array name="theme_default_panel_swap_close_preferences_when_launcher_location">
+        <item>@integer/position_right</item>
+    </integer-array>
+    <array name="theme_elementary_launcher_background">
+        <item>@android:color/transparent</item>
+        <item>@drawable/theme_elementary_res_launcher_background_top</item>
+        <item>@drawable/theme_elementary_res_launcher_background_right</item>
+        <item>@drawable/theme_elementary_res_launcher_background_bottom</item>
+        <item>@drawable/theme_elementary_res_launcher_background_left</item>
+    </array>
+    <integer-array name="theme_elementary_launcher_location_supported">
+        <item>@integer/position_top</item>
+        <item>@integer/position_right</item>
+        <item>@integer/position_bottom</item>
+        <item>@integer/position_left</item>
+    </integer-array>
+    <array name="theme_elementary_launcher_margin">
+        <item>16.0dip</item>
+        <item>0.0dip</item>
+        <item>16.0dip</item>
+        <item>0.0dip</item>
+    </array>
+    <integer-array name="theme_elementary_panel_location_supported">
+        <item>@integer/position_top</item>
+    </integer-array>
+    <array name="theme_elementary_panel_swap_close_preferences_when_launcher_location" />
+    <array name="theme_gnome_launcher_background">
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+        <item>@drawable/theme_gnome_res_launcher_background_right</item>
+        <item>@drawable/theme_gnome_res_launcher_background_bottom</item>
+        <item>@drawable/theme_gnome_res_launcher_background_left</item>
+    </array>
+    <integer-array name="theme_gnome_launcher_location_supported">
+        <item>@integer/position_left</item>
+        <item>@integer/position_right</item>
+    </integer-array>
+    <array name="theme_gnome_launcher_margin">
+        <item>0.0dip</item>
+        <item>0.0dip</item>
+        <item>6.0dip</item>
+        <item>0.0dip</item>
+    </array>
+    <integer-array name="theme_gnome_panel_location_supported">
+        <item>@integer/position_top</item>
+    </integer-array>
+    <array name="theme_gnome_panel_swap_close_preferences_when_launcher_location" />
+</resources>

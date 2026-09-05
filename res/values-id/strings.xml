@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Pengaturan</string>
+    <string name="button_about">Tentang</string>
+    <string name="button_back">Kembali</string>
+    <string name="button_contribute">Kontribusi</string>
+    <string name="contribute_bugs_go">Pergi ke GitHub</string>
+    <string name="contribute_bugs_title">Laporkan bug</string>
+    <string name="contribute_intro">Waktu yang lama dan kerja keras telah dilakukan untuk mengembangkan aplikasi ini. Jika Anda ingin membantu, ada beberapa cara di mana Anda dapat melakukannya.</string>
+    <string name="contribute_translate_description">"DistroHopper tersedia dalam beberapa bahasa. Hal ini karena relawan memberikan proyek dengan terjemahannya. Jika DistroHopper belum diterjemahkan ke dalam bahasa Anda dan Anda mengerti bahasa Inggris (dan Anda memiliki pengetahuan yang cukup tentang Linux), kemudian membantu dengan terjemahan adalah cara yang baik untuk membantu. 
+Translasi untuk DistroHopper dikelola di Transifex. Yang perlu Anda lakukan adalah permintaan untuk bergabung dengan tim penerjemah. Setelah itu saya akan menyetujui permintaan Anda dan Anda siap untu menterjemahkan."</string>
+    <string name="contribute_translate_go">Pergi ke Transifex</string>
+    <string name="dash_lens_apps_title">Aplikasi</string>
+    <string name="dash_lens_other_title">Lainnya</string>
+    <string name="developed_by">Dikembangkan oleh Robin Jacobs</string>
+    <string name="hint_launcher_edge">Untuk memilih tepi layar Peluncur yang harus dilampirkan.</string>
+    <string name="hint_wallpaper">Ubah kertas dinding</string>
+    <string name="hm_timvdstaaij_why">"* Pengujian (Jika ia tidak berhasil menghancurkannya maka mungkin aman untuk dikonsumsi oleh seluruh dunia.)
+ * Bantuan dengan fungsi perhitungan warna dominan."</string>
+    <string name="hm_todddavies_why">"* Saya menggunakan komponen ProgressWheel nya, karena komponen standar (round) Android ProgressBar tidak benar-benar menunjukkan kemajuan.
+ https://github.com/Todd-Davies/ProgressWheel/"</string>
+    <string name="honourable_mentions">Yang dihormati disebutkan</string>
+    <string name="notpinned">tidak disematkan</string>
+    <string name="option_dash_ready_show">Buka Dasbor secara standar</string>
+    <string name="option_wallpaper">Kertas Dinding</string>
+    <string name="pref_header_advanced">Tingkat Lanjut</string>
+    <string name="pref_header_dash">Dasbor</string>
+    <string name="pref_header_general">Umum</string>
+    <string name="pref_header_launcher">Peluncur</string>
+    <string name="pref_header_panel">Panel</string>
+    <string name="theme_elementary_res_panel_bfb_text">Aplikasi</string>
+    <string name="title_activity_about">Tentang</string>
+    <string name="title_activity_contribute">Bagaimana Saya bisa berkontribusi?</string>
+    <string name="title_activity_preferences">Preferensi</string>
+    <string name="title_preferences">Preferensi</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_settings">Settings</string>
+    <string name="alreadypinned">is already pinned</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_name">DistroHopper</string>
+    <string name="button_about">About</string>
+    <string name="button_apply">Apply</string>
+    <string name="button_back">Back</string>
+    <string name="button_contribute">Contribute</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="contribute_bugs_description">"If there is a bug in DistroHopper, that does not necessarily mean that I am aware of its existence. Developers are generally quite bad at testing their own applications as they will only use them in a way they are intended to be used. Some problems also only exist in certain specific circumstances (for example a certain device running a specific version of Android with some extra options enabled). So if you find a bug in DistroHopper (or if you have a feature request) you can help out by reporting it. 
+Bug reports for DistroHopper are kept on GitHub. If GitHub is too technical for you, you can also just send an e-mail to android-dev@robinj.be. Just make sure it's in English or Dutch. Please provide as much (relevant) information as possible."</string>
+    <string name="contribute_bugs_go">Go to GitHub</string>
+    <string name="contribute_bugs_title">Report bugs</string>
+    <string name="contribute_intro">"A lot of time and hard work went into the development of this application. If you'd like to help out, there are several ways in which you can do so."</string>
+    <string name="contribute_translate_description">"DistroHopper is available in several languages. This is because volunteers provide the project with their translations. If DistroHopper has not been translated yet into your own language, and you understand English (and you have sufficient knowledge of the Linux desktop to understand some of the more Unity-related terms), then helping out with translations is a good way to help out. 
+Translations for DistroHopper are managed on Transifex. All you need to do is request to join a translation team. After that I will approve your request and you are good to go."</string>
+    <string name="contribute_translate_go">Go to Transifex</string>
+    <string name="contribute_translate_title">Translate</string>
+    <string name="dash_lens_apps_title">Applications</string>
+    <string name="dash_lens_other_title">Other</string>
+    <string name="dash_search_hint">Search</string>
+    <string name="developed_by">Developed by Robin Jacobs</string>
+    <string name="hint_customise">Customise the look and feel.</string>
+    <string name="hint_dash_ready_show">The Dash will automatically be opened.</string>
+    <string name="hint_dashicon_size">How large app icons and search results in the Dash should be.</string>
+    <string name="hint_dev">Access debug logs and other technical information. Enabling this will negatively impact performance and stability.</string>
+    <string name="hint_dev_log_toaster">Show log items in toast messages.</string>
+    <string name="hint_icon_pack">Choose a third-party icon pack to apply to app icons.</string>
+    <string name="hint_launcher_edge">To which screen edge the Launcher should be attached.</string>
+    <string name="hint_launchericon_size">How large icons for pinned apps should be. The slider goes from 48dip to 120dip, with the default (right in the middle) being 84dip.</string>
+    <string name="hint_lenses">Choose which source searches you want to use and in which order you want their results to appear in the Dash. When you do a search in the Dash, your query is sent to all enabled lenses and their results are shown.</string>
+    <string name="hint_panel_edge">To which screen edge the Panel should be attached.</string>
+    <string name="hint_theme">Choose which Linux distribution you want DistroHopper to look like.</string>
+    <string name="hint_wallpaper">Change wallpaper</string>
+    <string name="hint_widgets_enabled">Enable <b>experimental</b> (read: <b>broken</b>") widget support.
+This is very experimental and not very usable in its current state."</string>
+    <string name="hm_timvdstaaij_name">Tim van der Staaij</string>
+    <string name="hm_timvdstaaij_why">"* Testing (If he doesn't manage to wreck it then it's probably safe for consumption by the rest of the world.)
+ * Help with the dominant colour calculation function."</string>
+    <string name="hm_todddavies_name">Todd Davies</string>
+    <string name="hm_todddavies_why">"* I used his ProgressWheel component, since the default (round) Android ProgressBar component can't actually indicate progress.
+ https://github.com/Todd-Davies/ProgressWheel/"</string>
+    <string name="hm_translators_name">The Translation Team</string>
+    <string name="hm_translators_why">* A couple of people devoted time and effort to make this app available in their respective languages. I am grateful towards all of these people for their contributions to the project.</string>
+    <string name="honourable_mentions">Honourable mentions</string>
+    <string name="intent_action_package_added">android.intent.action.PACKAGE_INSTALL</string>
+    <string name="intent_action_package_added_legacy">android.intent.action.PACKAGE_ADDED</string>
+    <string name="intent_action_package_removed">android.intent.action.PACKAGE_REMOVED</string>
+    <string name="notpinned">"isn't pinned"</string>
+    <string name="option_customise">Customise</string>
+    <string name="option_dash_ready_show">Open Dash by default</string>
+    <string name="option_dashicon_size">Dash icon size</string>
+    <string name="option_dev">Developer mode</string>
+    <string name="option_dev_log_toaster">Log toasts</string>
+    <string name="option_dev_logs">Logs</string>
+    <string name="option_icon_pack">Icon pack</string>
+    <string name="option_icon_pack_none">None</string>
+    <string name="option_launcher_edge">Launcher location</string>
+    <string name="option_launchericon_size">Pinned icon size</string>
+    <string name="option_lenses">Search sources</string>
+    <string name="option_panel_edge">Panel location</string>
+    <string name="option_theme">Theme</string>
+    <string name="option_wallpaper">Wallpaper</string>
+    <string name="option_widgets_enabled">Widgets</string>
+    <string name="pinned">has been pinned to the launcher</string>
+    <string name="pref_header_advanced">Advanced</string>
+    <string name="pref_header_appearance">Appearance</string>
+    <string name="pref_header_dash">Dash</string>
+    <string name="pref_header_dev">Developer options</string>
+    <string name="pref_header_functionality">Functionality</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_launcher">Launcher</string>
+    <string name="pref_header_panel">Panel</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_app_description_full">"Are you a Linux/open-source enthusiast? Whether you are or not, if it seems cool to be able to have the Linux desktop on your Android device, then this app is what you're looking for. Currently there is a choice between Ubuntu's Unity desktop, elementary OS' Pantheon desktop, and Gnome. Missing your desktop of choice? Get in touch and if there's enough interest I might just add it 😉 
+
+Features include a couple of different themes, a search feature which allows you to search from a multitude of different search sources (both local and remote), and customisation options. 
+
+If you have any suggestions or feedback, feel free to get in touch. The project is open-source with the source code publicly available at https://github.com/RobinJ1995/DistroHopper. If you're less technically-inclined but would still like to contribute, you can join the project's translation team over at https://www.transifex.com/distrohopper/. 
+
+Ubuntu is a registered trademark of Canonical Ltd. elementary is a registered trademark of elementary LLC. Gnome is a registered trademark of the Gnome Foundation."</string>
+    <string name="store_app_description_short">The Linux desktop on your Android device!</string>
+    <string name="theme_cinnamon_panel_bfb_text">@android:string/no</string>
+    <string name="theme_default_panel_bfb_text" />
+    <string name="theme_elementary_panel_bfb_text">@string/theme_elementary_res_panel_bfb_text</string>
+    <string name="theme_elementary_res_panel_bfb_text">Applications</string>
+    <string name="theme_gnome_panel_bfb_text">@string/theme_elementary_res_panel_bfb_text</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_contribute">How can I contribute?</string>
+    <string name="title_activity_dev_logs">Logs</string>
+    <string name="title_activity_lens_preferences">Search sources</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="title_activity_theme_preferences">Themes</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="toast_sending_crash_report">Sending crash report...</string>
+    <string name="unpinned">has been unpinned from the launcher</string>
+</resources>
