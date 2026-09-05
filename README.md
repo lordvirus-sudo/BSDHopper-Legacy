@@ -44,6 +44,6 @@ to older Android versions with a clean **BSD / Cinnamon-inspired** look.
 2. Увімкніть «Встановлення з невідомих джерел»
 3. Встановіть APK
 4. Встановіть **BSDHopper-Legacy** як основний лаунчер
-5. Насолоджуйтесь BSD-атмосферою ☕
+5. Насолоджуйтесь Linux+BSD-атмосферою ☕
 
 ---
